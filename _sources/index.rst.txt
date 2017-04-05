@@ -1,0 +1,40 @@
+.. DokuProjekt documentation master file, created by
+   sphinx-quickstart on Sat Feb 25 12:19:17 2017.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to DokuProjekt's documentation!
+=======================================
+
+.. toctree::
+	:maxdepth: 2
+	:caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
+Since Pythagoras, we know that :math:`a^2 + b^2 = c^2`.
+
+# Hier kommt Code
+
+.. code-block:: cpp
+    :linenos:
+
+    #include <stdio.h>
+
+    int main (){
+
+            std::cout << " Das ist ein besonders langer Text. Es soll pruefen wie die Quellcode im Browser und im pdf angezeigt wird. Ob es umbricht oder nicht." std::endl;
+            return 0;
+    }
+
+
+
+<a href="google.de">Link</a>
